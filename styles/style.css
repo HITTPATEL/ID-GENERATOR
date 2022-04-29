@@ -1,0 +1,93 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid blue;
+}
+#options{
+    display: flex;
+    gap:15px;
+
+}
+body{
+    background-color: black;
+    font-family: cursive;
+}
+#main_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    background-color: teal;
+    color:black;
+    border:none;
+    border-radius: 10px;
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#btn:hover{
+  
+    border: 1px solid skyblue;
+    color: black;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+#container div{
+    color:white;
+    text-align: center;
+    border:2px solid teal ;
+   border-radius: 10px;
+   padding: 10px;
+   margin-top: 20px;
+    
+}
+#container img{
+    height:250px;
+    width: 250px;
+}
+#container h3:hover{
+    color:teal
+}
+#container h1:hover{
+    color:rgb(232, 232, 83)
+}
+#container >div:hover{
+    border: 5px solid green;
+}
+h1{
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: -.1px;
+}
+#input{
+    display: flex;
+    gap:40px;
+    margin:auto;
+    margin-left: 40px;
+}
+#input input{
+    height: 40px;
+    width:200px;
+    background-color: rgb(222, 228, 228);
+    color: teal;
+    border-radius: 5px;
+    border: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#header img{
+    height: 60px;
+    width:60px;
+   
+}
+#header{
+    display: flex;
+    justify-content: center;
+}
